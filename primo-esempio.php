@@ -23,3 +23,5 @@ if ($results) { ?>
 		} ?>
 	</ul><?php
 }
+
+$conn->close();

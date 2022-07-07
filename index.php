@@ -41,3 +41,5 @@ if ($results && $results->num_rows > 0) { ?>
 } else {
 	echo '<h1>error</h1>';
 }
+
+$conn->close();
